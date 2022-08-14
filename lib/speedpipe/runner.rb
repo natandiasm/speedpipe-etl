@@ -62,9 +62,9 @@ module Speedpipe
           CLI::UI::Frame.divider('Destinations')
             destinations = Speedpipe::Pipe.destinations
             unless destinations.empty?
-              puts CLI::UI.fmt "{{*}} Running Destinations [#{index}]"
               CLI::UI::Spinner.spin("Running destinations") do |spinner|
                 destinations.each_with_index do |destination, index|
+                  puts CLI::UI.fmt "{{*}} Running Destinations [#{index}]"
                   destination[:block].call @data
                   puts CLI::UI.fmt "{{v}} sucess"
                   Speedpipe::Log.info('destination', "Run [#{index} destination] sucess!")
