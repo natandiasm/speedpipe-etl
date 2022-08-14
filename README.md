@@ -11,9 +11,9 @@ Install the gem:
 gem install speedpipe
 ```
 
+Create new file
 
 ```ruby
-# main.rb
 require 'speedpipe'
 
 # one ou more source
