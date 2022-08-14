@@ -1,8 +1,11 @@
 ![alt text](https://github.com/natandiasm/speedpipe-etl/blob/main/docs/imgs/logo-speedpipe.png?raw=true)
+
 # SpeedPipe ETL
+
 SpeedPipe ETL is a gem to build data pipelines in a simple and fast way.
 
 # Get Start
+
 SpeedPipe is a [DSL](https://en.wikipedia.org/wiki/Domain-specific_language), because of that, it's very simple to do something, just create a new file and call the specific functions.
 
 Install the gem:
@@ -11,7 +14,7 @@ Install the gem:
 gem install speedpipe
 ```
 
-Create new file
+Create new file:
 
 ```ruby
 require 'speedpipe'
@@ -33,3 +36,7 @@ destination do |data|
 end
 
 ```
+
+# Documentation
+
+Read more in [website speedpipe](https://www.speedpipe.ml/)
