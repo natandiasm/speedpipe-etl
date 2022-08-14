@@ -2,9 +2,9 @@
 
 # SpeedPipe ETL
 
-SpeedPipe ETL is a gem to build data pipelines in a simple and fast way.
+SpeedPipe ETL is a gem, with online logs, to build data pipelines in a simple and fast way.
 
-## Get Start
+## Get started
 
 SpeedPipe is a [DSL](https://en.wikipedia.org/wiki/Domain-specific_language), because of that, it's very simple to do something, just create a new file and call the specific functions.
 
@@ -25,8 +25,7 @@ source do
 end
 
 transform do |data|
-  # data is array of sources
-  data.first.each { |item| item + 1 }
+  data.each { |item| item + 1 }
 end
 
 destination do |data|
