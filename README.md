@@ -4,7 +4,7 @@
 
 SpeedPipe ETL is a gem to build data pipelines in a simple and fast way.
 
-# Get Start
+## Get Start
 
 SpeedPipe is a [DSL](https://en.wikipedia.org/wiki/Domain-specific_language), because of that, it's very simple to do something, just create a new file and call the specific functions.
 
@@ -37,6 +37,6 @@ end
 
 ```
 
-# Documentation
+## Documentation
 
 Read more in [website speedpipe](https://www.speedpipe.ml/)
