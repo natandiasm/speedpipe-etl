@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = 'speedpipe'
-    s.version     = '0.0.0'
+    s.version     = '0.0.1'
     s.summary     = "Easily create ETL data pipelines"
     s.description = "Speedpipe will help you to create data pipelines in a simple and functional way, with online logs and simple configurations."
     s.authors     = ["Natan Dias"]
